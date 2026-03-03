@@ -48,3 +48,4 @@ def send_email(subject, body):
 
 if __name__ == "__main__":
     check_page()
+    send_email("Test Email", "This is a test email from GitHub Actions")
